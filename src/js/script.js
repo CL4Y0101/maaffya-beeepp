@@ -13,3 +13,8 @@ function validate() {
 		alert("Siapa lo");
 	}
 }
+
+function nextpage() {
+
+	window.open('mainpage.html');
+}
