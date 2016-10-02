@@ -2,7 +2,7 @@ function validate() {
 
 	var password = document.getElementById("password").value;
 
-	if(password == "w") {
+	if(password == "wilgas1stanniv") {
 		
 		setTimeout(function() {
 			document.getElementById("successtext").innerHTML = "Halooooo Wildaa Selamat Datang!!!!!!";
