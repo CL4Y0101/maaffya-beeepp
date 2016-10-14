@@ -1,32 +1,106 @@
-<!DOCTYPE html>
-
+<!DOCTYPE <!DOCTYPE html>
 <html>
-
 	<head>
+		<title> Flipy </title>
+		<meta charset ="UTF-8">
+		<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="src/css/style.css">
-  		<script type= "text/JavaScript" src= "src/js/script.js"> </script>
-  		<title> Love </title>
+		<link rel="stylesheet" href="src/css/reset.css">
+		<script type= "text/javaScript" src= "src/js/query.js"> </script>
+
 	</head>
-
 	<body>
-		<div class="picture">
-			<center><img class ="heart" src="src/images/heart2.png" alt="foto pesawat" height="200" width="200"/></li></center>
+	<img alt="full screen background image" src="src/images/backgroundretro.jpg" id="full-screen-background-image" />
+		<div id="title-container">
+			<header class="title-header"> 
+				<h2 class="section-title">
+					<div class="rotate-title"><span> F </span></div>
+					<div class="rotate-title"><span> L </span></div>
+					<div class="rotate-title"><span> I </span></div>
+					<div class="rotate-title"><span> P </span></div>
+					<div class="rotate-title"><span> P </span></div>
+					<div class="rotate-title"><span> Y </span></div>
+				</h2>
+			</header>
 		</div>
-
-		<div class="login-page" background = "heart2.png">
- 		 	<div class="form">
-   			 	<form class="login-form">
-      				<input id="password" type="password" placeholder="Password"/>
-     			 	<button type= "button" onclick = "validate()">Secret Button</button>
-    			</form>
-  			</div>
+		<div id="nav-container">
+			<div class="icon-bar">
+			<center>
+  				<span class="play"> 
+  					<img src="src/images/video-play-icon-8.png" class="dagger" onclick= "myFunction()" />
+  					<span class="tooltiptext">Play</span>
+  				 </span>
+  				<span class="highscore"> <img src="src/images/icon_scores.png" class="dagger2" onclick= "myFunction()" /> <span class="tooltiptext">Highscore</span></span>
+  				<span class="introductions"> <img src="src/images/info.png" class="dagger3" onclick= "myFunction()" /><span class="tooltiptext">Introductions</span> </span>
+  				<span class="login"> <img src="src/images/loginlogo.png" class="dagger4" onclick= "myFunction()" /> <span class="tooltiptext">Login</span></span>
+  			</center>
+			</div>
 		</div>
-
-		<div id="success">
-			<p id="successtext"></p>
-			<button id="next" type="button" onclick = "nextpage()" style="display:none;"><span> Welcome </span> </button>
+		<div id="box-container">
+			<div class ="play-box">
+				<div class="container-card">
+				</div>
+				<div class="control-box">
+					<div class="control-container">
+						<div class ="user-logged">
+							<span> USERNAME </span>
+						</div>
+						<div id ="log-in-user"> 
+							<span class="login-first"> Login First </span>
+						</div>
+						<div class="clock">
+							<div class="clockContainer">
+							  	<div class="clockTop"></div>
+							 	<div class='clockOut'>
+							     	<div class="clockNeedle"></div>
+							    </div>
+							</div>
+						</div>	
+						<div class="stopwatch">
+							<div class="timer"></div>	
+							<div class='buttons'>
+							  <button id='start'>Start</button>
+							  <button id="reset">Reset</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class ="highscore-box">
+				<p> INI HIGHSCORE </p>
+			</div>
+			<div class ="intro-box">
+				<p> How to Play : </p>
+				</br>
+				<p> 1. Login </p>
+				<p> 2. Find pairs of images </p>
+				<p> 3. Clicks on two tiles to find two matching pictures </p>
+				<p> 4. Are you ready? Click Play </p>
+				<p> 5. Have Fun!! </p>
+			</div>
+			<div class ="login-box">
+				<div class="form">
+    				<form class="login-form">
+    					 <fieldset>
+							<legend class="legend">Login</legend>
+							<div class="input">
+								<input type="user" id="username" placeholder="User" required />
+								<span><i class="fa fa-user" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="input">
+								<input type="Password" id="password" placeholder="Password" required />
+								<span><i class="fa fa-lock"></i></span>
+							</div>
+							<div class="sucess-login"> 
+								<p>LOGIN SUCCESS</p>
+							</div>
+						</fieldset>
+    				</form>
+						<button class="submit"><i class="fa fa-long-arrow-right"></i></button>
+    			</div>
+			</div>
 		</div>
-
 	</body>
-
 </html>
