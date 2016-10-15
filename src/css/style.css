@@ -21,6 +21,12 @@ body {
  
 }
 
+.subline {
+	font-size: 20px;
+	margin-top : 30px;
+	font-family: "Times New Roman", sans-serif;
+}
+
 #title-container {
 	margin-left : 15em;
 	margin-right : 15em;
@@ -113,7 +119,7 @@ body {
 	visibility: visible;
 }
 
-.intro-box, .highscore-box {
+.intro-box {
 	position: relative;
 	margin-top: 30px;
 	padding: 20px;
@@ -144,7 +150,6 @@ body {
 	position: absolute;
 	left: 50%;
 	transform : translate(-50%);
-
 	background: linear-gradient(to right, #ff66b3, #25b7c4)
 }
 
@@ -155,6 +160,8 @@ body {
 	display: none;
 	font-family: "Gaming", serif;
 }
+
+/* https://codepen.io/reidark/pen/uAmey */
 
 .legend {
   margin-top: 100px;
@@ -209,6 +216,7 @@ body {
   border-radius: 4px;
   transition: 0.2s ease-out;
   color: #a1a1a1;
+  box-sizing: border-box;
 }
 .input input:focus {
   padding: 10px 5px 10px 10px;
@@ -368,8 +376,13 @@ body {
   border: none;
   border-radius: 8px;
   outline: none;
-	color:  rgba(217,167,220,1);
+  color:  rgba(217,167,220,1);
 
+}
+
+.buttons {
+
+  display: none;
 }
 
 .stopwatch {
@@ -447,6 +460,7 @@ body {
   left: 10px;
   transform-origin:100% 50%;
   -webkit-transform-origin:100% 50%;
+  -webkit-transform:rotate(90deg);
   -webkit-animation: needleAnimation 3s linear 0s infinite; 
   animation: needleAnimation 3s linear 0s infinite;
   -webkit-animation-play-state : paused;
@@ -455,10 +469,10 @@ body {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes needleAnimation {
     from {
-    	
+
     }
     to {
-    	-webkit-transform:rotate(360deg); 
+    	-webkit-transform:rotate(450deg); 
 	}
 }
 
@@ -468,9 +482,68 @@ body {
     	
     }
     to {
-    	-ms-transform:rotate(360deg); 
-    	-moz-transform:rotate(360deg); 
-    	-webkit-transform:rotate(360deg); 
+    	-ms-transform:rotate(450deg); 
+    	-moz-transform:rotate(450deg); 
+    	-webkit-transform:rotate(450deg); 
 	}
 }
 
+.highscore-box {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 30px;
+	padding: 20px;
+	text-align: center;
+	font-family: "Gaming", serif;
+	display: none;
+	border: 5px double #8383af;
+	border-radius: 40px;
+	background: linear-gradient(to right, #ff66b3, #25b7c4)
+
+}
+
+.highscore-header {
+	font-size: 30px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	border-bottom: 2px solid black;
+}
+
+.tbl-header, .tbl-content {
+
+	text-align: center;
+	margin: 30px;
+
+}
+
+table {
+	width : 100%;
+	table-layout: fixed;
+}
+
+td {
+	text-align: center;
+	border-bottom: 5px solid black;
+	padding-top: 10px
+	padding-bottom: 10px;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%,-20%);
+
+}
+
+.modal .winner {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Gaming", sans-serif;
+  color: pink;
+  text-shadow: 0px 3px 0 black;
+}

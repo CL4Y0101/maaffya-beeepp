@@ -12,6 +12,7 @@ $(document).ready(function(){
         $(".login-box").fadeOut(1); 
         $(".control-box").fadeOut(1);
         $(".highscore-box").fadeToggle(500);
+		highscore.refresh();
     });
      $(".dagger4").click(function(){ 
         $(".play-box").fadeOut(1);
@@ -28,6 +29,7 @@ $(document).ready(function(){
         $(".play-box").fadeToggle(500); 
     });
 
+    //https://codepen.io/natewiley/pen/HBrbL
     var Memory = {
 
 		init: function(cards){
@@ -88,6 +90,7 @@ $(document).ready(function(){
 				Memory.showModal();
 			}, 1000);
 			timer.pause();
+			highscore.check();
 		},
 
 		showModal: function(){
@@ -97,14 +100,7 @@ $(document).ready(function(){
 
 		hideModal: function(){
 			this.$overlay.hide();
-			this.$modal.hide();
-		},
-
-		reset: function(){
-			this.hideModal();
-			this.shuffleCards(this.cardsArray);
-			this.setup();
-			this.$game.show("slow");
+			this.$modal.fadeOut(100);
 		},
 
 		// Fisher--Yates Algorithm -- http://bost.ocks.org/mike/shuffle/
@@ -138,41 +134,42 @@ $(document).ready(function(){
 
 	var cards = [
 		{
-			name: "php",
+			name: "bird1",
 			img: "src/images/bird1.png",	
-			id: 1,
+			id: 1
 		},
 		{
-			name: "css3",
+			name: "bird2",
 			img: "src/images/bird2.png",
 			id: 2
 		},
 		{
-			name: "html5",
+			name: "bird3",
 			img: "src/images/bird3.png",
 			id: 3
 		},
 		{
-			name: "jquery",
+			name: "bird4",
 			img: "src/images/bird4.png",
 			id: 4
 		}, 
 		{
-			name: "javascript",
+			name: "bird5",
 			img: "src/images/bird5.png",
 			id: 5
 		},
 		{
-			name: "node",
+			name: "bird6",
 			img: "src/images/bird6.png",
 			id: 6
 		},
 		{
-			name: "photoshop",
+			name: "bird7",
 			img: "src/images/bird7.png",
+			id: 7
 		},
 		{
-			name: "python",
+			name: "bird8",
 			img: "src/images/bird8.png",
 			id: 8
 		},
@@ -194,23 +191,28 @@ $(document).ready(function(){
 
 	var logged_on = false;
 	var userSpanned = "";
+	var userLogged = "";
+
 
 	 $(".submit").click(function(){
 	   $.ajax({
 		   url:"src/js/users.json", type: "get", dataType: "json", success: function(data){
-			   console.log("GET", data);
 			   $.each(data.users, function(i,d){
 				   if($("#username").val() == d.username && $("#password").val() == d.password) {
-					   console.log("LOGIN", "login success");
 					   localStorage.setItem("namaUser", d.username);
 					   logged_on = true;
 					   $('.input').css("display", "none"); 
 					   $('.sucess-login').css("display", "block");
+					   $('.buttons').css("display", "block");
+					   userLogged = d.username;
 					   userSpanned = "<span class='user'>" + d.username + "</span>"
 					   $('.login-first').css("display", "block");
 					   document.getElementById("log-in-user").innerHTML = userSpanned;
-				   } 
+				   }
 			   });
+			   if(!logged_on) {
+			   		alert("Username or Password invalid");
+			   }
 		   }
 	   });
    });
@@ -291,6 +293,30 @@ $(document).ready(function(){
 		Memory.shuffleCards(this.cardsArray);
 		Memory.setup();
 		Memory.$game.show("slow");    
+		Memory.hideModal();
 	});
 
+	var array = JSON.parse(localStorage.getItem("scorearray"));
+
+	var highscore = {
+
+		check : function() {
+			this.totalTime = $('.timer').html();
+			localStorage.setItem(this.totalTime, userLogged);
+		},
+
+		refresh : function() {
+
+			var values = Object.keys(localStorage);
+			values.sort();
+
+			for(i = 0; i < values.length-1; i++) {
+				if(i == 5) {
+					break;
+				}
+				$('.highscore' + i + '-user').html(localStorage.getItem(values[i]));
+				$('.highscore' + i + '-score').html(values[i]);
+			}
+		}
+	}
 });

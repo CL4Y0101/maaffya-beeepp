@@ -1,4 +1,5 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
+
 <html>
 	<head>
 		<title> Flipy </title>
@@ -14,26 +15,27 @@
 	<img alt="full screen background image" src="src/images/backgroundretro.jpg" id="full-screen-background-image" />
 		<div id="title-container">
 			<header class="title-header"> 
-				<h2 class="section-title">
+				<div class="section-title">
 					<div class="rotate-title"><span> F </span></div>
 					<div class="rotate-title"><span> L </span></div>
 					<div class="rotate-title"><span> I </span></div>
 					<div class="rotate-title"><span> P </span></div>
 					<div class="rotate-title"><span> P </span></div>
 					<div class="rotate-title"><span> Y </span></div>
-				</h2>
+					<p class="subline"> Created by : Bagas Prasetya Adi & Wilda Septiani </p>
+				</div>
 			</header>
 		</div>
 		<div id="nav-container">
 			<div class="icon-bar">
 			<center>
   				<span class="play"> 
-  					<img src="src/images/video-play-icon-8.png" class="dagger" onclick= "myFunction()" />
+  					<img src="src/images/video-play-icon-8.png" class="dagger" alt="play" />
   					<span class="tooltiptext">Play</span>
-  				 </span>
-  				<span class="highscore"> <img src="src/images/icon_scores.png" class="dagger2" onclick= "myFunction()" /> <span class="tooltiptext">Highscore</span></span>
-  				<span class="introductions"> <img src="src/images/info.png" class="dagger3" onclick= "myFunction()" /><span class="tooltiptext">Introductions</span> </span>
-  				<span class="login"> <img src="src/images/loginlogo.png" class="dagger4" onclick= "myFunction()" /> <span class="tooltiptext">Login</span></span>
+  				</span>
+  				<span class="highscore"> <img src="src/images/icon_scores.png" class="dagger2" alt="highscore" /> <span class="tooltiptext">Highscore</span></span>
+  				<span class="introductions"> <img src="src/images/info.png" class="dagger3" alt="introductions" /><span class="tooltiptext">Introductions</span> </span>
+  				<span class="login"> <img src="src/images/loginlogo.png" class="dagger4" alt="login" /> <span class="tooltiptext">Login</span></span>
   			</center>
 			</div>
 		</div>
@@ -44,7 +46,7 @@
 				<div class="control-box">
 					<div class="control-container">
 						<div class ="user-logged">
-							<span> USERNAME </span>
+							<span> USERNAME 		</span>
 						</div>
 						<div id ="log-in-user"> 
 							<span class="login-first"> Login First </span>
@@ -66,13 +68,61 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="modal-overlay">
+					<div class="modal">
+						<h2 class="winner">You Win!</h2>
+					</div>
+				</div>
 			</div>
 			<div class ="highscore-box">
-				<p> INI HIGHSCORE </p>
+				<h1 class="highscore-header">HIGHSCORE</h1> 
+				<div  class="tbl-header">
+				<table>
+				  <thead>
+				    <tr>
+				      <th>Rank</th>
+				      <th>Username</th>
+				      <th>Time</th>
+				    </tr>
+				  </thead>
+				</table>
+				</div>
+				<div  class="tbl-content">
+				<table>
+				  <tbody>
+				    <tr>
+				      <td>1</td>
+				      <td class="highscore0-user">-</td>
+				      <td class="highscore0-score">-:-:-</td>
+				    </tr>
+				    <tr>
+				      <td>2</td>
+				      <td class="highscore1-user">-</td>
+				      <td class="highscore1-score">-:-:-</td>
+				    </tr>
+				    <tr>
+				      <td>3</td>
+				      <td class="highscore2-user">-</td>
+				      <td class="highscore2-score">-:-:-</td>
+				    </tr>
+				    <tr>
+				      <td>4</td>
+				      <td class="highscore3-user">-</td>
+				      <td class="highscore3-score">-:-:-</td>
+				    </tr>
+				    <tr>
+				      <td>5</td>
+				      <td class="highscore4-user">-</td>
+				      <td class="highscore4-score">-:-:-</td>
+				    </tr>
+				  </tbody>
+				</table> 
+				</div>
 			</div>
 			<div class ="intro-box">
 				<p> How to Play : </p>
-				</br>
+				<br>
 				<p> 1. Login </p>
 				<p> 2. Find pairs of images </p>
 				<p> 3. Clicks on two tiles to find two matching pictures </p>
@@ -85,12 +135,12 @@
     					 <fieldset>
 							<legend class="legend">Login</legend>
 							<div class="input">
-								<input type="user" id="username" placeholder="User" required />
+								<input type="text" id="username" placeholder="User" required />
 								<span><i class="fa fa-user" aria-hidden="true"></i></span>
 								
 							</div>
 							<div class="input">
-								<input type="Password" id="password" placeholder="Password" required />
+								<input type="password" id="password" placeholder="Password" required />
 								<span><i class="fa fa-lock"></i></span>
 							</div>
 							<div class="sucess-login"> 
