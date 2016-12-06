@@ -1,0 +1,263 @@
+
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Wilda & Bagas</title>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kalam|Niconne" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sahitya" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+		<script type="text/javascript" src="src/js/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="src/js/materialize.js"></script>        
+        <script type="text/javascript" src="src/js/jquery.js"></script>
+     	<link type="text/css" rel="stylesheet" href="src/css/materialize.min.css"  media="screen,projection"/>
+     	<link type="text/css" rel="stylesheet" href="src/css/main-style.css">
+	</head>
+	<body class="pink lighten-5">
+		<div class="navbar-fixed">
+			<nav>
+	   			<div class="nav-wrapper pink">
+	   				<div class="container">
+	   					<ul id="nav-mobile" class="left hide-on-med-and-dowm">
+
+		      				<li class="jumpto"><a href="#home">Jump To</a></li>
+	   					</ul>
+		      			<ul id="nav-mobile" class="right hide-on-med-and-down">
+		      				<li class="jumpto"><a href="#home">Our Story</a></li>
+		      			</ul>
+		      		</div>
+	      		</div>
+	  		</nav>
+	  	</div>
+		
+		<div class="parallax-container" style="height: 300px;">
+		    <div class="parallax">
+		   	 	<img class="blur" src="src/images/IMG20160814151633.jpg" style=" width: 300px; height: 500px;">
+		   	 	<div class="centered-title-month white-text text-darken-3">~ August 2016 ~</div>
+		    </div>
+		</div>
+		<div id ="aboutus" class="1st-section section brown lighten-2" style="">
+		    <div class="row container" style="margin-top: 20px;">
+		    	<div class="col s4">
+		    		<img src="src/images/IMG20160804215011.jpg" style="width: 350px; height: 500px; border: 2px solid green">
+		    	</div>
+		    	<div class="col s8">
+		    		<h2 class="jan-header red-text header">Yay Sleepover Again!</h2>
+		    		<p class="jan-text wbdesc white-text text-darken-4">
+		    			Halo inget ga ini nginep yang kapan??? WKKWKW aku juga lupa sih, tapi seinget aku ini itu nginep yang waktu itu lagi di gudal terus lagi pada di apartemen adel, terus kita ikut karena jano tuh ultah gitu wil. Jadinya kita nebeng kesana. Yang nntn horror apa, aku lupa deehhh iya kannn! Asyikkk banget kita nginep disitu udah berkali2 dan mungkin itu yang terakhir ya soalnya itu perpisahan apartemennya adel... jadi kita udah gaakan nginep di adel lagi :( huhuhuhu. Terus pas hari itu aku diatas pelukan sama kamu seperti biasa, terus kita di adel jugaaaa. Ampe besoknya apa kita juga di adel yang nntn Xmen Apocalypse. Pokoknya nginep sama kamu tuh udah ga keitung deh banyaknya, bener2 hampir setiap kali bisa nginep kita nginep. Oiya ini juga abis tgb latihan, jadi kita latihan dulu terus kelar ke gudal, eh abis itu baru nyusul ke tempat adel. Kamu keliatan capek banget disini :( Tapi tenang ada aku buat memelukmu
+		    		</p>
+		    	</div>
+		        <div class="col s12">
+		        	<p class="jan-text wbdesc black-text text-darken-4">
+		    			Emang sebenernya kelihatannya kita udah sering nginep setiap hari, tapi aku gabosen2 loh will! Malah aku tuh pengen selalu nginep sama kamu, dan aku sebenernya pengen tidur bareng kamu terus tiap hari. Kamu tuh kalo pusing minta dipeluk di puk2 di pijetin, kalo aku nginep sama kamu aku bisa ngelakuin itu semua dan kamu gabakal betee!
+		    		</p>
+		        </div>
+		        <div class="col s8">
+		    		<h2 class="jan-header red-text header">Let's Go Buy Some Ingredient!</h2>
+		        		<p class="jan-text wbdesc white-text text-darken-4">
+		    			Haloooo inget ga ini pas kapan?? Pasti lupa yaah? :((( Ini pas kamu jadi mc compfest wil! Di daerah radio dalem. Dimana aku sebenrna gaada apa2 tapi aku ketempat kamu, karena aku mau jemput kamu dan aku kangen kamu huhuh :((. Tadinya awalnya kan aku mau nungguin kamu di rumahnya abrar, eh gataunya bawhanya ada supermarketnya jadinya aku belanja2 aja. Eh kamu tiba2 dateng nimbrung belanja, jadinya kamu request makanan deh, terus bisa aku beli dan aku masakin buat kamu. Kalo gasalah aku beli ayam hari ini soalnya kamu request mau ayam goreng crispy, jadinya aku belinya ayam goreng sama beberapa tepung, terus aku beli bumbu mayonaisenya juga! Enak kan mayonaisenya! racikan sendiri tuh. Jadi pengen masakin kamu lagi tau gak! Tunggu yah kapan2 aku masakin lg
+		    		</p>
+		        </div>
+		        <div class="col s4">
+		       	 		<img src="src/images/IMG20160807143955.jpg" style="width: 100%; height: 400px; border: 2px solid green">		
+		        </div>
+		        <div class="col s12">
+		        	<p class="jan-text wbdesc black-text text-darken-4">
+		    			Terus Oiya, abis dari tempat ini kita ke gancit loh alias gandaria city. Disana awalnya aku mau minta temenin kamu beli kacamata soalnya kacamata aku yg ini udah patah, eh ternyata bisa dibenerin. Huhu kacamata ini udh dibenerin sebanyak 3x Tapi masih awet dan masih bisa dipake, meskipun udha agak ga layak dan kalo aku nunduk jatoh mulu. Tapi kamu lucu banget, setiap kacamata aku jatoh didorong lagi keatas HUAAA :( kangne kamu bangettttttt. Pokoknya kamu bener2 deh lucu banget kalo aku kacamata jatoh dibenerin sambil make muka lucu gitu "ihh..jatoh"
+		    		</p>
+		        </div>
+		        <div class="col s4">
+		    		<img src="src/images/IMG20160814151037.jpg" style="width: 100%; height: 400px; border: 2px solid green">
+		    	</div>
+		    	<div class="col s8">
+		    		<h2 class="jan-header red-text header">Hello, Kim So Hyun! Nice to Meet You</h2>
+		    		<p class="jan-text wbdesc white-text text-darken-4">
+		    			Haii Kim So Hyun!! LOVELOVE WKWKWKKW. Gadengg halo wildaaa, tapi sumpah wil kamu mirip banget sama kimsohyun kalo kaya gitu, aku ngefanss aak!, kamu pake kacamata jadi lucu gems pipinya, parah deh pokoknya jadi mirip artis korea. Oiya masih inget kan? Ini pas kita waktu itu ke ennichisai part2 alias ke gelar jepang UI. Disana kita cuma masuk terus keluar HAHAHAHAHA. Tapi aku ketemu banyak temen sma kamu, kaya kinan, sama satu lagi tapi aku lupa namanya. Didalem kita ga ngapa2in sih, cuma masuk liat2 foto2 di deket bunga sakura, sama akhirnya keluar terus makan. Tetapi aku di hari ini seneng banget liat kamu parahh, kamu pake kacamata litteraly jadi cantik sama gemes bgtt!! kaya orang beda deh tapi hatinya ttp wilda sayangku xD
+		    		</p>
+		    	</div>
+		    	<div class="col s12">
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Pokoknya terus abis dari dalem, kita makan2 di pojok, terus kamu ketemu temen kamu akhirnya kamu minta fotoin lahh, terus kita foto2 lagi, makan lagi. Kyknya itu doang deh yg kita lakukan HAHAHAHA. Tapi abis itu pas mo balik kita kehujanan HUHUHU. Kamu gemes banget sih ttp pake kacamata itu. Oiya kalo gasalah kamu malu2 ke pacil karena pake rok yah??? WKKWKW aku lupa tapi bener kan??
+		    		</p>
+		    	</div>
+		    	<div class="col s8">
+		    		<h2 class="jan-header red-text header">PSAF</h2>
+		    		<p class="jan-text wbdesc white-text text-darken-4">
+		    			Haii willl, inget kan?? Pada agustus ini kita juga ada PSAF!!! Nah foto disebelah ini ada foto di PSAF hari ke 3!!!. SUmpah wil aku inget banget peran kamu sebagai MC itu lucu bangettt, mau dimanapunn. Kamu it kalo jadi MC gemesss bangett parahhh, ga heran kalo banyak maba yang tertarik sama kamu. Soalnya kamu energic bangettt. Kamu tetep jadii mc aku yaa! maksud aku kamu jangan nyerah2 jadi MC soalnya kamu kalo jd mc itu lucu banget, kalo ngelawak tapi gagal ketawa. Kalo gatau mau ngapain gemes aja gitu panik sendiri HAHAHA. Terus pas hari ke 3 psaf kamu ketawa ngakak di depan WKKWKW lucu bangett gaboong dehh bener, gemesin banget. Padahal gaada apa2 tapi ketawa sendiri ngelengking. Tapi pas PSAF kita gaterlalu sering bareng, soalnya km di HPK dan aku di Acara HUHU :( Tapi gapapa, kamu tetep di hati aku kok xD
+		    		</p>
+		    	</div>
+		    	<div class="col s4">
+		    		<img src="src/images/IMG20160818171615.jpg" style="width: 100%; height: 450px; border: 2px solid green">		
+		    	</div>
+		    	<div class="col s12">
+		    			<br>
+		    	</div>
+		    	<div class="col s4">
+		    		<img src="src/images/IMG20160825073444.jpg" style="width: 100%; height: 400px; border: 2px solid green">
+		    	</div>
+		    	<div class="col s8">
+		    		<h2 class="jan-header red-text header">Our Graduation Day! Or It Is??</h2>
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Haii wildaaa inget ga gambar disebelah??? Itu pas kita jadi panitia LO di Wisuda Genap 2016!! Sumpah dari mulai hari sebelumnya kita barenggg, terus ampe paginya aku excited banget soalnya katanya kamu beli dress baru kan! Terus juga kamu belom pernah pake dress di depan aku jadi aku litteraly excited banget!. Eh tapi tau2 aku ketinggalan sesuatu di kosan, padahal aku udh nungguin didepan pintu tuh pas kamu ganti jadi dress, tapi akhirnya aku mesti balik dulu karena kehilangan sesuatu. Terus pas udah balik2 dari ngambil barang! EHHHHHH si cantik dari ujung manggil2 Terus aku gemes banget masaa kamu lucu banget make dress! Coba tuh diliat di foto, udah siap nikah banget ga sih >,<. Gadeng WKKW, aku jadi pengen prom sama kamu tapi dress kamu yang lebih bagus dan berwarna lagi
+		    		</p>
+		    	</div>
+		    	<div class ="col s12">
+		    		<p class="jan-text wbdesc white-text text-darken-4">
+		    			Iyaaa terus di wisuda ini juga kita foto2 di belakang, terusss kitaa lari sana lari sini. Oiya aku juga mesen bunga dan akhirnya kamu dapet bunga lagi dari aku yey! Ga kaya waktu itu bunganya layu huhuhu:( Yang ini gabakal layu soalnya bunga kertas xD. Aku berdoa aja wil, semoga kita bisa wisuda bareng, jadi gacuma sebagai panitia, tapi sebagai orang yang di wisuda kan, kita bakal make toga bareng, kita bakal lempar topi bareng, kita bakal foto bareng, dapet ijazah bareng, foto bareng lagi deh tambahin, aku ketemu sama mama papa kamu, kamu ketemu mama papa aku. Terus kita bareng2 foto sama keluarga kita masih2, abis itu kita lanjut deh ke kehidupan selanjutnya, kehidupan berkeluarga. Amin ya WIL!!! Kita kalo masuk barengg lulus juga bareng yak!
+		    		</p>
+		    	</div>
+		    </div>
+		</div>
+		<div class="parallax-container" style="height: 300px;">
+		    <div class="parallax">
+		   	 	<img class="blur" src="src/images/IMG20160911151946.jpg" style=" width: 600px; height: 500px;">
+		   	 	<div class="centered-title-month white-text text-darken-3">~ September 2016 ~</div>
+		    </div>
+		</div>
+		<div id ="aboutus" class="1st-section section purple lighten-2" style="">
+		    <div class="row container" style="margin-top: 20px;">
+		    	<div class="col s8">
+					<h2 class="jan-header red-text header">My Little Princess Birthday!</h2>
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Happy Birthday Wilda Septiani!!! Sayangku Cintaku Semoga kamu makin sehat selalu panjang umur dan sebagainya ya!!
+		    			Kan waktu itu katanya aku mau ngasih wish kan yg panjangnya tapi aku ga kesampean karena sibuk banget :( Jadi sekarang ya aku kasih wishnya!
+		    		</p>
+		    		<p class="jan-text wbdesc white-text text-darken-4">
+		    			Halo wildaa selamat ulang tahun yang ke 18 ya!! Wah kamu udah jadi remaja! Semoga kamu panjang umur, sehat selalu jadi anak yang dapat membanggakan orangtua, jadi orang yang selalu berpengaruh baik ke orang lain, selalu ceria, selalu mempunyai hal yang bisa membuatmu senang, semakin banyak rejekinya, semakin sholeh, semakin lucu, semakin imut, makin sayang sama orang tua, makin sayang sama aku juga! Semoga tahun setelah ini menjadi berkah buat kamu. Kamu bisa sukses di kehidupan fasilkom, kamu lulus dengan nilai memuaskan, kamu cumlaude, kamu bisa berperan penting dalam kepanitiaan maupun non kepanitiaan. Pokoknya segala sesuatu yang kena ke kamu maupun kamu lakukan adalah hal yang baik dan bermakna
+		    		</p>
+		        </div>
+		    	<div class="col s4">
+		    		<img src="src/images/IMG20160906003918.jpg" style="width: 350px; height: 500px; border: 2px solid green">	
+		        </div>
+		       	<div class="col s12">
+		       		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Aku pengen singkat ngejelasin rencana aku! HAHAHAHA. Jadi sebenernya ini semua dimulai saat kamu lagi timbul minat bakat waktu itu, nah kan aku compfest tuh paginya, nah aku abis fleshmob dll, pergi ke GI sama Ule ariz ais buat nyari hadiah buat kamu. Nah aku tuh rencananya emang mau scrapbook kan, tetapi ternyata mahal banget jadi aku gabisa bikin scrapbook hasilnya cuma scrap paper gitu. Tapi aku bikinnya pake hati dan malem2 sumpah aku bergadang huaaah, untung hasilnya memuaskan ya Allah. Kamu ga seneng ya?? Maafff segitu doang yg bisa aku kasih. Awalnya aku jg mau bikin kuee, tapi gadapet bahannya maaf :( Jadinya aku cuma beli kue tiramisu soalnya km waktu itu mau tiramisu. Udah gagal banget lagi ketauan gara2 banyak hal lain, mana penjaga kosan kamu kayak gitu lagi jadi gabisa surprise huhu, tapi kamu jadinya nangis dulu tapi abis itu kita cerian deh dengan happy birthday. AMIN semoga kamu sukses terus ya willl dikehidupannya nanti, mau aku ada maupun aku gaada kamu tetep harus menjadi wilda yang ceria dan wilda yang disayang banyak orang. Okeee?? Sippp janjii yaa!
+		    		</p>
+		       	</div>
+		        <div class="col s5">
+		    		<img src="src/images/IMG20160911125912.jpg" style="width: 100%; height: 300px; border: 2px solid green">	
+		        </div>
+		        <div class="col s7">
+					<h2 class="jan-header red-text header">1,2,3 Mangroovee!!!</h2>
+		    		<p class="jan-text wbdesc white-text text-darken-4">
+		    			Kamu tau gaa ini dimana?? WKWKKW dari judulnya aja udah tau pastiii ini di Taman Mangrovee!!! Nah kita perjuangan banget nih waktu itu kesini soalnya kita pake nyasar dulu coba :( Terus kita gatau kemana eh malah masuk tol kearah tanjung priuk coba. Mana di GPS diarahinyna kebawha jembatan lagi cuma bisa motor doang yang lewat. HUHUH. TERNYATA CUMA KELUAR TERUS BELOK KIRI
+		    		</p>
+		        </div>
+		        <div class="col s12">
+		        	<p class="jan-text wbdesc black-text text-darken-4">
+		    			Terus di sana kita ngapain aja sih? Nah di manggrove ini kita cuma mau foto2 sih awalnya cuma salahnya batre hape ku abiss huhu jadi kita gabisa terlalu banyak foto2. Jadi akhirnya kita pertama ke yang rumah2 penginapan kan tuh. Terus kita foto2 disana lahhh, nah foto diatas itu pas kita di rumah2 itu. Terus selanjutnya abis foto2 itu kita jalan2 dulu sambil foto2 lagi, akhirnya capek banget ngantukkkk :( Kita istirahat dulu di sebuah rumah itu juga jd kita duduk di depannya. Setelah itu foto lagi, abis udah kita balik dulu mau ngecas, untung ketemu tempat duduk yang deket casan! Yesh abis itu km tidur dl terus aku ngecas.
+		    		</p>
+		    		
+		        </div>
+		        <div class="col s8">
+		        	<p class="jan-text wbdesc white-text text-darken-4">
+		    			Selanjutnya abis itu kita sholat dulu tuh, nah kamu lucu banget nunggu diluar. Abis solat kita niatnya foto2 lagi pokoknya fotonya harus banyak, Nah kita foto dimana aja ada tempat, di Prosotan lahh, di jaring2 lah, di mana lah di tempat tidur lah pokoknya banyak deh. Terus kita jalan jauhhhh bangetttt ampe jauh deh pokoknya masuk ke manggrovenya! Seru sih sama kamu tapi entah kenapa foto2 doang jadi kurang asyikkk, kalo di kotu entah kenapa asik bgt soalnya meskipun foto2 doang pemandangannya tuh ganti2 ini mangrrove sama semua. Tp yg penting sama kamu sih. Nah foto yang sblh kanan ini aku suka banget!! Soalnya kesannya kaya aku tuh megangin kamu terus dan aku gamau ngelepasin kamu sama sekali. "When I Hold Her Hand, I never want to let it go" HAHAHA jadi inget pas post insta kamu terharu banget sama post ini. Pokoknya banyak banget deh kesan pesannya dimangrovee! I love you banget wildaa!! Ini jalan2 setelah sekain lamanya kita ga jalan wkwkwk
+		    		</p>
+		        </div>
+		        <div class="col s4">
+		        	<img src="src/images/IMG20160911154015.jpg" style="width: 100%; height: 400px; border: 2px solid green">	
+		        </div>
+		        <div class="col s12">
+		        	<center><h2 class="jan-header red-text header">Before And After</h2><center>
+		        </div>
+		        <div class="col s4 offset-s2">
+		    		<img src="src/images/8c8gIsiqex.jpg" style="width: 100%; height: 400px; border: 2px solid green">	
+		        </div>
+		        <div class="col s4">	
+		        	<img src="src/images/IMG20160925151429.jpg" style="width: 100%; height: 400px; border: 2px solid green">	
+		        </div>
+		        <div class="col s12">
+		        	<p class="jan-text wbdesc black-text text-darken-4">
+		    			Halo wildaaa!! Yay kita udah sampai di main event compfest8! Tapi belum sepenuhnya full 1 Tahun Kita bersama, Soalnya Compfest8 Main Eventnya lebih cepet! WKWKKW. Tapi aku tetep senang kok, soalnya aku pas sama kamu pada hari ini mengingat kembali masa2 lalu dimana aku nembah kamu pas compfest tahun lalu yaitu tepatnya compfest7. Terus dihari ini juga aku main demi bisa ngambilin kamu hadiah, meskipun kita kepisah kamu di RIK terus aku di balairung. Tapi kamu baik banget ampe mau cabut demi ke aku sedangkan aku cuma di dalem doangg :(. Maafin aku wil waktu itu aku mentingin kerjaan daripada kamu padhaal kamu udah rela cabut demi buat aku HUAAAAAH. Tapi gapapa pas hari kedua aku kembali menepati janji pada hari pertama, di hari kedua aku yang cabut2an aku ke kamu beliin minum aku jalan sama kamu terus akhirnya kita bisa main joox bareng! Tapi lagunya aneh2 HAHAHAHAH. Yang pertama cheerleader gitu yang kedua kayak anak2 aneh deh pokoknya sumpah. Terussss kita malemnya pas acara udah kelar nnoton hivi barenggg, aku kembali nntn konser bareng kamu aku seneng banget!! PARAHHH!! LItteraly seneng banget bisa konser sama kamu! Tapi kamu terpesona dengan pemain hivi, aku kzl gadeng KWKWKW. Tapi kamu gamau dipeluk soalnya takut keliatan yaa gapapa deh pdhal aku pengen bgt meluk kamu :(. Intinya compfest8nya sukses karena aku berhasil mengingat masa2 compfest tahun lalu dimana kita jadian wil!
+		    		</p>
+		        </div>
+		    </div>
+		</div>
+		<div class="parallax-container" style="height: 300px;">
+		    <div class="parallax">
+		   	 	<img class="blur" src="src/images/IMG20161004214934.jpg" style=" width: 400px; height: 600px;">
+		   	 	<div class="centered-title-month white-text text-darken-3">~ October 2016 ~</div>
+		    </div>
+		</div>
+		<div id ="aboutus" class="1st-section section deep-purple accent-1" style="">
+		    <div class="row container" style="margin-top: 20px;">
+		    	<div class="col s12">
+		    		<h2 class="jan-header red-text text-darken-4 header" style="text-align: center;">HAPPY ANNIVERASRY WILDA SEPTIANI!!</h2>
+		    	</div>
+				<div class="col s6 offset-s3">
+					<img src="src/images/IMG_20161003_114847345.jpg" style="width: 100%; height: 500px; border: 2px solid green">
+				</div>
+				<div class="col s12">
+					<p class="jan-text wbdesc white-text text-darken-4">
+		    			WAAAA Happy Anniversary Wilda Septiani!! Ga kerasa udah 1 Tahun kita bersama wil!!!! Aku ga nyangka aku bisa sama orang lain selama setahun. Soalnya dari diriku sendiri emang ngeselin, tapi kamu bisa kuat sama aku!! Makasih ya will udah mau 1 tahun sama akuu makasih banget udah mau sama aku, aku bersyukur banget bisa punya orang kayak kamu. Aku bener2 sayang sama kamu, aku tuh kalo pulang kerumah, ato ga sama kamu tuh kaya gaada tujuan gitu sih. Tapi emang aku bener2 mati gaya kalo gaada kamu pokoknya. Semua hal yang kamu lakukan itu bikin aku bahagia bangett gangerti lagi paraahh :(((
+		    		</p>
+		    		<p class="jan-text wbdesc dark-text text-darken-4">
+		    			Wilda mungkin kita sering banget berantem dan debat ga penting gitu. Tapi karena gapenting itu nyambungnya ke suatu hal yang bikin kita sadar akan kekurangan dan kelebihan masing2. Aku disini udh berada di poin dimana aku udah percaya banget sama kamu, tapi aku belom percaya sama diri aku sendiri... Pokoknya tapi kamu udah bener2 aku sayang dan aku cintain dan kamu udah bener2 melakukan itu juga ke aku. Kerasa kok sayangnya kamu ke aku!!
+		    		</p>
+		    		<p class="jan-text wbdesc white-text text-darken-4">
+		    			Wildaaa setahun itu bukan pencapaian yang kecil wil, kita sudah berjuang selama ini, dan aku gamau perjuangan ini berhenti sampai disini. Setahun yak setahun!!! Duh wish aku pokoknya semoga kita bisa saling lebih mengerti satu sama lain, saling kasih sayang, saling bantu membantu, saling dukung mendukung, saling topang menopang, saling sayang satu sama lain deh pokoknya. Aku gamau pisah sama kamu :(. Maafin aku ya wil kalo aku suka bikin kamu kesel, suka cuekin kamu, suka bikin kamu cemburu, tapi aku udah berusaha kok menjadi orang yang lebih baik dari biasanya. Aku belajar banyak banget dari kamu dan aku bener2 gangerti lg aku berubah menjadi orang yang penyayang dan aku bener2 sayang sama kamu. Sabarr ya will sama aku :(( POKOKNA AKU SAYANG BANGET SAMA KAMU DAN AKU CARE BANGET SAMA KAMU HUAAAAH AAAAKK :(. Pokoknya kita ampe nikah ya wil!!
+		    		</p>
+		    		<p class="jan-text wbdesc dark-text text-darken-4">
+		    			Wildaaa harapan aku adalah kita dapat meneruskan nya gga cuma 1 tahun 2 tahun. Soalnya banyak banget kisah yang masih menunggu untuk kita selesaikan dan kita mainkan. 1 Tahun ke 2 Tahun Mungkin belum terlalu beda dari sebelumnya karena kita masih kuliah. Bagaimana kalo 2 tahun lebih? Munkin kita udah kerja lah, magang, kita gatau masa depan kita bakal gimana, yang penting asal kita bersama wil, semua dapat dilewati dengan mudah, kita gaboleh pisah pokoknya kita gaboleh pisah!!!. KITA JODOH AMINNNNN!!!. Banyak banget ritangan yang bakal kita lewatin wil, semoga rintangan itu menjadi hawa positif ke kita dan bukan hawa negatif ke kita.
+		    		</p>
+				</div>
+				<div class="col s12">
+		    		<h2 class="jan-header red-text text-darken-4 header" style="text-align: center;">SEKALI LAGI HAPPY BIRTHDAY YA WILDA SEPTIANI SAYANGKU CINTAKU!!!</h2>
+		    		<h2 class="jan-header white-text text-darken-4 header" style="text-align: center;">
+		    		 TERIMA KASIH SUDAH MEMBERIKAN AKU 1 TAHUN YANG SANGAT BERHARGA!!! AYO KITA LANJUTKAN SAMPAI AKHIR!!
+		    		 </h2>
+						<h2 class="jan-header pink-text text-darken-4 header" style="text-align: center;">
+		    		  WILL YOU MARRY ME WIL?
+		    		  </h2>
+		    	</div>
+				
+		    </div>
+		</div>
+		
+		<div class="parallax-container" style="height: 300px;">
+		    <div class="parallax">
+		   	 	<img class="blur" src="src/images/IMG20160716085634.jpg" style=" width: 400px; height: 600px;">
+		   	 	<div class="centered-title-month white-text text-darken-3">~ To Be Continued ~</div>
+		    </div>
+		</div>
+		<div id ="aboutus" class="1st-section section pink lighten-2" style="">
+		    <div class="row container" style="margin-top: 20px;">
+		    	<h2 class="jan-header red-text text-darken-3 header" style="text-align: center; font-size: 100px;"> A Little Story </h2>
+		    	<div class="col s12">
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Wilda Septiani, Maafin aku kemaren2 dan beberapa hari terakhir ini. Aku bikin kamu marah, aku bikin kamu bete, aku bikin kamu cemburu, aku udah bikin kamu sakitt pokoknya. Wilda aku mau sedikit cerita sekarang disini. Mohon dibaca dl ya, tapi kalo kamau gamau baca juga gapapa. 
+		    		</p>
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Jadi aku mau cerita dari akarnya kenapa sbnernya aku kayak gitu. Aku juga sbnernya gatau bisa kayak gitu kenapa, cuma kamu sering banget ngecekin hp aku, kamu sering banget ngecekin instagram aku, kamu sering banget ngecekin semua2nya punya aku. Jadi kesannya aku tuh di perangkap dalam dunia kamu, dan aku bener2 gabisa keluar gitu. Bukannya aku udah bosen, bukannya aku udah capek, bukan. Tapi aku emang dari dulu orangnya gasuka yang namanya dikekang gitu. Aku pernah kabur dari rumah cuma karena hal kecil yang buat aku gaboleh main komputer. Karena aku dimanjain mulu dirumah dulu, aku gapernah bisa mengenal dunia luar. Aku dulu tahun baru aja, gaboleh keluar, harus sama keluarga. Nyetir mobil aja gadipercaya pas awal2. Pokokyna segala macem yang membuat aku mau ngelakuin sesuatu tapi aku di awasin itu aku gaenak (alias dikekang). Makanya kemaren akhir2 ini aku nanya mulu ke kamu. Wil, perlu bgt ya ngecekin line aku, wil dicekin mulu hp aku. Maaf wil bukannya aku ngelarang kamu minjem hp aku, bukannya aku marah atau gmn. Meskipun aku yakin kamu ngecek itu soalnya kamu takut aku chat sama cewek lain, tetapi aku bener2 merasa diawasin. dan aku gimana ya, aku karena dikekang, semakin aku dikekang aku semakin mau keluar gitu loh.
+		    		</p>
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Semua dimulai dari yang kejadian dulu itu, sejak yang kejadian bulan 4. Aku bener2 gaberani chat sama cewek lain lagi, aku bener2 ngebuang semua pikiran aku untuk ngobrol atau chatting sama cewek lain meskipun itu temen deket aku mau gimanapun juga. Terus aku udah berusaha berubah, aku berusaha berubah agar ga gampang asik sama cewek lain. Dna akhirnya aku bisa bertahan beberapa bulan. Kemudian temen aku sari ngechat aku inget banget waktu itu. Dan saat itu aku merasakan asiknya lagi ngobrol sama orang luar. Tapi kamu marah lagi, dan waktu itu aku sangat panik dan aku akhirnya memutuskan untuk tidak lagi ngobrol dengan orang luar. Aku lakukan itu semua agar kamu ga bete dan kamu ga marah, soalnya aku gamau lagi merasakan rasanya bulan ke 4 yang penuh siksaan hati itu. Aku mulai beradaptasi dan aku bisa sabar, bisa sayang, bisa ngurus kamu, mau kamu sejauh apapun, aku datengin, aku ga marah kalo kamu bete karena hal gapenting, dan aku bener2 berubah sepenuhnya. Bahkan aku udah gamau ngecek hp kamu lagi karena segamau itu aku marah sama kamu. Aku gapeduli kamu ngmg sama orang manapun, aku gapeduli yg penting aku percaya dengan aku melakukan terbaiknya aku, kamu gaakan pernah ilang, mau kamu pergi kemanapun dan berinteraksi dengan orang manapun.
+		    		</p>
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Tapi akhir2 ini, kita mulai beda banget acaranya. Awalnya aku biasa aja kan aku masih ga chat sama orang manapun. Tapi aku setiap hari ngeliat kamu di TBM asik sama kiki bima, terus kamu jg ngobrol sama afi zidan. Kamu berinteraksi dengan banyak orang yang sepunuhnya aku belom kenal, dan aku gatau mereka bakal ngapain kamu. Aku setakut itu wil, apalagi yang pas kamu ngajarin zidan dan aphy. Tapi aku relain dan aku berdoa aja kamu gapapa dan selamat. Terus akhir2 ini aku hanya bisa melihat kamu asik dengan orang lain, dan aku berpikir apa aku gabisa asik lagi ya sama kamu. Makanya waktu itu aku sempet nanya ke kamu, apakah aku masih asik atau engga wil, atau aku cuma jadi pengikut kamu. Dengan sayangnya dan baik hatinya kamu menjelaskan ke aku "Engga gas asik sama kamu tuh beda". Terus dengan itu aku sadar bahwa, sbnernya aku gaperlu seterikat itu, jadi sejak itu aku mencoba keluar lg dr dunia yang didalem itu.
+		    		</p>
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Aku di tempat asdos bertemu banyak temen, mulai dari cowok dari cewek, dan akhirnya aku dket sama mereka ber3 si noni, risma, dan zelia. Mereka kalo di lab asik banget dan mereka nanya mulu ke aku, dan mrk blg aku asdos yang sangat baik. Terus dimulai dari itu aku mulai asik dengan mereka ber3. Dan buat si noni, dia asik banget dan akhirnya dia jadi tempat aku bisa nanya2 tentang omega dan anak2 asdosan lainnya. Tapi bukan berarti aku sayang sama dia wil. Sama aja sama aku ngobrol asik dengan karin. Mungkin kalo kamu bisa asik tuh kalo ketemu dengan orangnya dan bisa ngobrol langsung terus ketawa2 bareng. Sedangkan aku lebih tipe yang ke chat asik kalau ngebahas sesuatu. Dan aku itu lebih menghargai ngobrol, ketawa bareng, main bareng dibanding chat. Jadi kalo chat dibandingin dengan setiap hari bareng, menurut aku itu jauh banget. Tapi mungkin dari mata kamu berbeda, mungkin kamu dengan chat itu, artinya aku lebih dibanding dengan setiap hari bareng.
+		    		</p>
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Maafin aku sekali lagi wilda, mungkin aku belum bisa menjadi cowok yang terbaik, dan aku sudah berusaha mengubah habit jelek aku yang asik dengan orang lain. Tapi sebagaimana juga aku udah berusaha melakukan itu dan aku tetap gagal. Setidaknya aku memiliki kemajuan dari bulan 5 sampai bulan 13. Tetapi habit jelek aku itu muncul lagi dan kamu sakit lagi. Jadi aku udah gatau lagi mau ngmg apa, aku minta maaf udah gabisa diterima lagi. Aku emang orang yang paling bego paling bodoh, tetapi si bodoh dan si bego ini juga tetap mau sayang sama kamu wil. Mungkin aku belom bisa sempurna, tetapi aku setidaknya bisa membuktikan selama 14 bulan bahwa aku sayang sama kamu dan aku akan mengurus kamu setiap hari. Aku tidak pernah melepas status wilda, sekalipun. Aku setiap pagi mengecek status kamu terus. Itu semua aku lakukan karena aku se sayang itu dengan kamu. Dan kamu itu udah gaada bandingannya lagi dengan orang manapun.
+		    		</p>
+		    		<p class="jan-text wbdesc black-text text-darken-4">
+		    			Maaaaafkan aku, mungkin kamu sekarang lagi marah banget, dan kamu sekarang lagi gamau ketemu aku. Maafin aku menghilang dari kmrn, aku mau menyendiri. Maaf aku juga baru nongol lagi, karena aku lagi mikir, apakah sebenernya aku tuh pantes buat kamu atau engga. Apakah orang bego dan bodoh seperti aku itu pantes atau engga. Dan setiap aku ngeliat kamu dari kemaren, saat aku ga sama kamu. Kamu lebih terlihat senang, lebih terlihat asik, kamu punya dunia sendiri, kamu dapat lebih berkembang. Tapi wil setidaknya, kalau bisa.... Aku mau peluk kamu, dan aku mau nangis didepan kamu lagi, tolong aku wil, meskipun aku brengsek dan aku bodoh. Aku tetap mau ditolong:(, dan aku dari kemaren kerjaannya cuma bisa nangis dan nangis sambil membuat hadiah terbesar yang aku dapat berikan ini. Aku sayang banget sama kamu wil, hati aku cuma buat kamu. Kalau kamu pergi... Aku mesti kemana... Aku mendingan sendiri.....Tolonggg :((
+		    		</p>
+		    	</div>
+		    	<div class="col s12">
+		    			<center>
+
+		    				<a href="main2.php" class="jan-text wbdesc black-text text-darken-4" style="font-size: 50px;"><-- Prev Page </a>
+		    			</center>
+		    	</div>
+		    </div>
+		</div>
+    </body>
+</html>

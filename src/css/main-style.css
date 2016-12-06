@@ -1,0 +1,72 @@
+
+.parallax-container {
+      height: 500px;
+ }
+
+ .centered-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:100px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Niconne', cursive;
+}
+
+ .centered-title-month {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:100px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Niconne', cursive;
+}
+
+.centered-subline {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    font-family: 'Niconne', cursive;
+}
+
+.blur {
+	-webkit-filter: brightness(70%); 
+}
+
+.love-text {
+	font-family: 'Kalam', cursive;
+}
+
+p {
+	font-size: 25px;
+}
+
+
+.jumpto {
+	font-family: 'Kalam', cursive;
+}
+
+.jan-text, .jan-header {
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+.jan-text {
+	font-size: 22px;
+	text-align: justify;
+}
+
+.nov-header {
+	font-family: 'Bubblegum Sans', cursive;
+	border-bottom: 3px solid black;
+}
